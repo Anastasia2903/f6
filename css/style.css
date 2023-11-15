@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcoral;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    color: snow;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#userInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.userCard {
+    border: 4px solid brown;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
